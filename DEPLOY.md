@@ -3,7 +3,7 @@
 ## 1. 준비
 
 - **Git**: 프로젝트를 GitHub/GitLab/Bitbucket 저장소에 올려두세요.
-- **환경 변수**: `OPENAI_API_KEY`는 로컬 `.env.local`에만 두고, **저장소에는 올리지 마세요.** (배포 시 Vercel에서 따로 넣습니다.)
+- **환경 변수**: `GROK_API_KEY`는 로컬 `.env.local`에만 두고, **저장소에는 올리지 마세요.** (배포 시 Vercel에서 따로 넣습니다.)
 - **이미지**: `public/avatars/` 안의 사진들(1.jpg ~ 20.jpg 등)은 **저장소에 포함**해야 배포된 사이트에서 보입니다.
 
 ## 2. Vercel 배포
@@ -21,8 +21,8 @@
    - Output Directory: (기본값 유지)
 
 5. **Environment Variables**에서:
-   - Name: `OPENAI_API_KEY`
-   - Value: `sk-...` (본인 OpenAI API 키)
+   - Name: `GROK_API_KEY`
+   - Value: (본인 xAI Grok API 키)
    - **Add** 클릭
 
 6. **Deploy** 클릭.

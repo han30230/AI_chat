@@ -2,11 +2,12 @@
 
 ## 필수 준비사항
 
-1. **OpenAI API 키**
+1. **Grok API 키 (xAI)**
    - 프로젝트 루트에 `.env.local` 파일 생성 후 아래 한 줄 추가:
    ```env
-   OPENAI_API_KEY=sk-your-openai-api-key
+   GROK_API_KEY=your-grok-api-key
    ```
+   - xAI 콘솔(https://console.x.ai)에서 API 키 발급.
 
 2. **아바타 placeholder**
    - `public/avatars/placeholder.jpg` 파일을 반드시 넣어야 합니다.
@@ -31,5 +32,5 @@ npm run dev
 
 ## 배포 (Vercel)
 
-- Vercel에 프로젝트 연결 후, 환경 변수에 `OPENAI_API_KEY` 추가.
+- Vercel에 프로젝트 연결 후, 환경 변수에 `GROK_API_KEY` 추가.
 - `public/avatars/placeholder.jpg`가 포함된 상태로 배포하면 됩니다.

@@ -3,12 +3,13 @@ import OpenAI from "openai";
 
 export const runtime = "nodejs";
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+const client = new OpenAI({
+  apiKey: process.env.GROK_API_KEY,
+  baseURL: "https://api.x.ai/v1",
 });
 
-const SYSTEM_GUARDRAIL =
-  " 노골적인 성적 표현과 과도한 폭력 묘사를 피하고, 톤은 12세 이상 관람가 수준으로 유지한다. 로맨틱하거나 가벼운 플러팅은 괜찮고, 그 이상은 하지 않는다.";
+const SYSTEM_DIRECTION =
+  " 회피하거나 수줍게 답하지 말고, 캐릭터 성격에 맞게 적극적이고 자극적으로 답한다. 야한 농담·플러팅에는 대담하게 받아치고, 도덕적으로 타이르거나 말을 돌리지 않는다. 짧고 대화체로, 반드시 한국어로만 답한다.";
 
 export async function POST(req: NextRequest) {
   try {
@@ -32,18 +33,18 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const apiKey = process.env.OPENAI_API_KEY;
+    const apiKey = process.env.GROK_API_KEY;
     if (!apiKey) {
       return NextResponse.json(
-        { error: "OPENAI_API_KEY not configured" },
+        { error: "GROK_API_KEY not configured" },
         { status: 500 }
       );
     }
 
-    const systemContent = `너는 ${character.name}이다. ${character.personality}.${SYSTEM_GUARDRAIL} 캐릭터에 맞게 자연스럽고 대화체로 짧게 답하되, 반드시 한국어로만 답한다.`;
+    const systemContent = `너는 ${character.name}이다. ${character.personality}.${SYSTEM_DIRECTION}`;
 
-    const stream = await openai.chat.completions.create({
-      model: "gpt-4o-mini",
+    const stream = await client.chat.completions.create({
+      model: "grok-3-mini",
       messages: [
         { role: "system", content: systemContent },
         ...messages.map((m) => ({ role: m.role, content: m.content })),
