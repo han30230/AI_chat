@@ -26,10 +26,14 @@ export default function CharactersPage() {
           <StarIcon className="w-7 h-7 text-violet-500" />
         </h1>
         <p className="text-gray-600 mt-7 text-sm md:text-base max-w-md mx-auto leading-relaxed">
-          각 캐릭터는 저마다 다른 매력을 가지고 있습니다.
+          심심할 틈 없이 이어지는 대화.
+          <br />
+          당신에게 집중하는 그녀.
         </p>
         <p className="text-gray-500 mt-4 text-sm md:text-base max-w-md mx-auto leading-relaxed">
-          그녀와 특별한 대화를 시작해보세요.
+          원하는 스타일을 고르고,
+          <br />
+          지금 바로 대화를 시작하세요.
         </p>
       </header>
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 max-w-5xl mx-auto">

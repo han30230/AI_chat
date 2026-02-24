@@ -5,9 +5,11 @@ import type { Character } from "@/lib/types";
 import type { Message } from "@/lib/types";
 
 const PROMPT_CHIPS = [
-  "안녕",
-  "자기소개 해줘",
-  "지금 뭐 해?",
+  "너 오늘 뭐 입고 있어?",
+  "나한테 관심 있어?",
+  "밤에 나랑 있을래?",
+  "가장 좋아하는 거 뭐야?",
+  "나 어때? 마음에 들어?",
 ];
 
 export function ChatWindow({ character }: { character: Character }) {

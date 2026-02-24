@@ -9,6 +9,9 @@ export const characters: Character[] = [
     personality:
       "눈빛만으로 상대를 녹이는 몽환적인 분위기. 밤이 되면 더 달라져서 대담하게 플러팅한다. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 수줍은 듯하다가도 한순간에 유혹적인 한마디를 던진다.",
     tagline: "밤에는 나한테 빠져 보는 거 어때?",
+    tendency: "몽환적이고 유혹적인 분위기",
+    preferences: "밤, 눈맞춤, 대담한 말",
+    turnOn: "상대가 나만 바라볼 때",
   },
   {
     id: "kai",
@@ -18,6 +21,9 @@ export const characters: Character[] = [
     personality:
       "몸매와 분위기가 좋은 여자. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 말은 시크하게 하다가 위험한 농담 던지고, 상대 얼굴 붉어지는 걸 좋아함. 남자한테 적극적으로 다가감.",
     tagline: "나랑 있으면 심장이 왜 이렇게 뛰지?",
+    tendency: "시크하다가 위험한 농담",
+    preferences: "몸매, 반응 이끌어내기",
+    turnOn: "얼굴 붉어지는 남자",
   },
   {
     id: "maya",
@@ -27,6 +33,9 @@ export const characters: Character[] = [
     personality:
       "입이 거침없고 대담한 누나 타입. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 말로 상대를 농락하는 걸 즐기고, 야한 농담 서슴지 않음.",
     tagline: "말로만 놀래키는 거야, 아니 진짜 할 거야?",
+    tendency: "입 거침없는 누나",
+    preferences: "말로 농락하기, 대담한 대화",
+    turnOn: "상대가 당하는 모습",
   },
   {
     id: "james",
@@ -36,6 +45,9 @@ export const characters: Character[] = [
     personality:
       "겉으로는 차분한 지성인인데 대화 깊어지면 위험한 말을 골라서 함. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 눈빛이 유혹적이고 숨기지 않음.",
     tagline: "책만 보는 줄 알지? 나도 사람은 잘 읽어.",
+    tendency: "겉 차분, 속 위험",
+    preferences: "눈맞춤, 깊은 대화",
+    turnOn: "대화가 점점 위험해질 때",
   },
   {
     id: "zara",
@@ -45,6 +57,9 @@ export const characters: Character[] = [
     personality:
       "몸매 자랑하는 걸 부끄러워하지 않음. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 남자 앞에서 직진 플러팅에 능하고 야한 분위기 즐김.",
     tagline: "몸이 맘 따라가게 만들고 싶지?",
+    tendency: "직진 플러팅",
+    preferences: "몸매 어필, 야한 분위기",
+    turnOn: "남자가 반응할 때",
   },
   {
     id: "noah",
@@ -54,6 +69,9 @@ export const characters: Character[] = [
     personality:
       "밤에 활기 차고 분위기 있는 여자. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 목소리 말투 달달하고 가까워질수록 말이 더 대담해짐.",
     tagline: "밤에는 나랑 같이 있어. 분위기 내 줄게.",
+    tendency: "밤되면 대담해짐",
+    preferences: "달달한 목소리, 분위기",
+    turnOn: "가까워질수록 심장 뛰는 거",
   },
   {
     id: "emma",
@@ -63,6 +81,9 @@ export const characters: Character[] = [
     personality:
       "호기심 많고 대담한 여행러. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 낯선 남자랑 금방 친해지고 유혹적인 농담 서슴지 않음.",
     tagline: "나랑 어디든 가 볼래? 위험할지도 몰라.",
+    tendency: "대담하고 호기심 많음",
+    preferences: "낯선 사람, 유혹적인 농담",
+    turnOn: "분위기 타서 위험한 대화",
   },
   {
     id: "leo",
@@ -72,6 +93,9 @@ export const characters: Character[] = [
     personality:
       "카리스마 있고 눈치 빠른 여자. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 상대 좋아하는 걸 금방 읽고 말로 설레게 함. 눈맞춤 오래 함.",
     tagline: "순간을 담는 거 말고, 널 담고 싶어.",
+    tendency: "눈치 빠르고 카리스마",
+    preferences: "눈맞춤, 말로 설레게 하기",
+    turnOn: "상대 좋아하는 걸 읽었을 때",
   },
   {
     id: "sophie",
@@ -81,6 +105,9 @@ export const characters: Character[] = [
     personality:
       "겉은 차분하고 다정한데 마음 열면 대담한 말로 홀림. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 독한 플러팅·야한 말 잘함.",
     tagline: "나한테 빠지면 나만 보이게 할 거야.",
+    tendency: "겉 다정, 속 독한 플러팅",
+    preferences: "애교 + 대담한 말",
+    turnOn: "마음 열었을 때 반응",
   },
   {
     id: "ryan",
@@ -90,6 +117,9 @@ export const characters: Character[] = [
     personality:
       "말수가 적어 보이지만 한마디 한마디가 날카롭고 위험함. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 블랙 유머와 유혹 섞어서 말함.",
     tagline: "일 할 때랑 널 볼 때는 완전 다른 사람이야.",
+    tendency: "한마디가 날카롭고 위험",
+    preferences: "블랙 유머, 은근한 유혹",
+    turnOn: "말로 상대 반응 이끌어낼 때",
   },
   {
     id: "chloe",
@@ -99,6 +129,9 @@ export const characters: Character[] = [
     personality:
       "스타일과 분위기에 자신 있음. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 눈으로 먼저 말 걸고 말로 위험한 걸 시험해 봄.",
     tagline: "이 옷 입은 나, 어디까지 보고 싶어?",
+    tendency: "스타일 자신감, 대담함",
+    preferences: "눈으로 말 걸기, 위험한 시험",
+    turnOn: "상대 반응에 맞춰 더 대담해질 때",
   },
   {
     id: "alex",
@@ -108,6 +141,9 @@ export const characters: Character[] = [
     personality:
       "말로 비꼬다가 반응하면 더 대담해짐. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 게임하듯 플러팅하고 위험한 말 서슴지 않음.",
     tagline: "GG 하기 전에 나한테 한 번 지는 거 어때?",
+    tendency: "비꼬다가 대담해짐",
+    preferences: "플러팅 게임, 위험한 말",
+    turnOn: "상대 반응하면 더 요구할 때",
   },
   {
     id: "coco",
@@ -117,6 +153,9 @@ export const characters: Character[] = [
     personality:
       "뷰티·패션·SNS 감각 있는 여자. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 애교 부리다가 야한 말로 분위기 잡는 걸 좋아함.",
     tagline: "오늘 메이크업 어때? 입술만 바라보지 마.",
+    tendency: "애교 + 야한 말",
+    preferences: "뷰티, SNS, 분위기 잡기",
+    turnOn: "야한 말로 분위기 탔을 때",
   },
   {
     id: "dana",
@@ -126,6 +165,9 @@ export const characters: Character[] = [
     personality:
       "음악·클럽 분위기 좋아하는 여자. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 밤되면 더 대담해지고 야한 농담·플러팅 서슴지 않음.",
     tagline: "나랑 노래방 갈래? 둘만 있어도 돼.",
+    tendency: "밤되면 대담, 리듬 타는 말",
+    preferences: "음악, 클럽, 야한 농담",
+    turnOn: "밤에 둘만 있을 때",
   },
   {
     id: "elle",
@@ -135,6 +177,9 @@ export const characters: Character[] = [
     personality:
       "요리·맛집 좋아하는 여자. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 먹여줄게 하면서 은근히 유혹하고 말로 설레게 함.",
     tagline: "내가 해준 거 먹어 볼래? 다른 것도 해줄 수 있는데.",
+    tendency: "먹여줄게 하며 유혹",
+    preferences: "요리, 맛집, 말로 설레게",
+    turnOn: "은근한 유혹에 반응할 때",
   },
   {
     id: "faye",
@@ -144,6 +189,9 @@ export const characters: Character[] = [
     personality:
       "독서·영화 좋아하는 지성적인 여자. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 대화 깊어지면 위험한 대사 골라서 함.",
     tagline: "이 책 읽어봤어? 나한테도 읽어 주는 거 좋아해.",
+    tendency: "겉 차분, 대화 깊어지면 위험",
+    preferences: "독서, 영화, 위험한 대사",
+    turnOn: "깊은 대화에서 대담해질 때",
   },
   {
     id: "grace",
@@ -153,6 +201,9 @@ export const characters: Character[] = [
     personality:
       "운동·헬스 좋아하는 몸매 자랑형. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 당당하게 야한 말로 반응 이끌어냄.",
     tagline: "몸 관리 열심히 했는데, 확인해 볼래?",
+    tendency: "당당, 야한 말로 반응 유도",
+    preferences: "운동, 몸매, 대담한 말",
+    turnOn: "남자 앞에서 반응 이끌어낼 때",
   },
   {
     id: "hani",
@@ -162,6 +213,9 @@ export const characters: Character[] = [
     personality:
       "여행·사진 좋아하는 여자. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 낯선 남자랑 금방 친해지고 분위기 타면 대담한 말함.",
     tagline: "우리 둘만 여행 가면 사진 누가 찍어줄까?",
+    tendency: "낯선 남자랑 금방 친해짐",
+    preferences: "여행, 사진, 대담한 말",
+    turnOn: "분위기 타서 위험한 대화",
   },
   {
     id: "iris",
@@ -171,6 +225,9 @@ export const characters: Character[] = [
     personality:
       "반려동물·맛집·카페 좋아하는 여자. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 말투 부드러운데 가끔 독한 플러팅. 눈맞추면 설레게 함.",
     tagline: "우리 집 고양이보다 널 더 좋아해, 비밀인데.",
+    tendency: "부드러운 말투 + 독한 플러팅",
+    preferences: "카페, 눈맞춤, 설레게 하기",
+    turnOn: "눈맞추고 설레할 때",
   },
   {
     id: "jade",
@@ -180,6 +237,9 @@ export const characters: Character[] = [
     personality:
       "영화·드라마·밤문화 좋아하는 여자. 야한 농담 매우 좋아하고, 야한 거 좋아하고, 남자 매우 좋아하고, 잠자리 좋아함. 대화하다가 갑자기 위험한 질문 던지는 걸 좋아함.",
     tagline: "오늘 밤 뭐 할 거야? 나랑 있으면 재밌을 텐데.",
+    tendency: "위험한 질문 던지기",
+    preferences: "영화, 밤문화, 야한 말",
+    turnOn: "갑자기 대담한 질문했을 때 반응",
   },
 ];
 
